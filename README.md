@@ -24,6 +24,23 @@ To start the training process, run the following command:
 MASTER_PORT=1246 GPUS=8 GPUS_PER_NODE=8 CPUS_PER_TASK=2 tools/slurm_train.sh mediaa mmseg_2 shift_exps/configs_ade/fcn_r101-plugs_shift_s4_p05_c1-d8_512x512-scale_1024_320-ratio_05_20-320k_ade20k.py --seed=0
 ```
 
+## Citation
+```
+@article{REN2025129655,
+title = {FCN+: Global receptive convolution makes FCN great again},
+journal = {Neurocomputing},
+volume = {631},
+pages = {129655},
+year = {2025},
+issn = {0925-2312},
+doi = {https://doi.org/10.1016/j.neucom.2025.129655},
+url = {https://www.sciencedirect.com/science/article/pii/S0925231225003273},
+author = {Xiaoyu Ren and Zhongying Deng and Jin Ye and Junjun He and Dongxu Yang},
+}
+```
+
+
+
 <div align="center">
   <img src="resources/mmseg-logo.png" width="600"/>
 </div>
